@@ -1,0 +1,128 @@
+nav {
+    overflow: hidden;
+    background-color: #16416B;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+nav a:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+.toggle-bar {
+    display: none;
+    padding: 10px;
+    font-size: 24px;
+    text-decoration: none;
+    color:white;
+    top: 20px;
+    left: 20px;
+}
+
+
+main {
+    background-color: steelblue;
+    color: white;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.rush {
+    padding-bottom: 0;
+}
+
+.angriff {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.angriff {
+margin: 5px;
+}
+
+body {
+    font-family: "Source Sans Pro, sans-serif";
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+h3 {
+    margin-left: 2rem;
+}
+
+.container {
+    background-color: aliceblue;
+    display: flex;
+    border-left: 10px solid dodgerblue;
+    position: relative;
+    overflow: clip;
+    padding: 20px 20px ;
+    border-radius: 10px;
+    height:100px;
+
+}
+
+
+.satz{
+    font-family: cursive;
+    text-align:center;
+    margin: 5px;
+    }
+
+@media (max-width: 768px) {
+    .container {
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        }
+}
+hr {
+    color: black;
+}
+
+.adresse {
+    font-family: cursive;
+}
+
+
+
+.left-align {
+ margin-left: 2rem;
+}
+
+form {
+    width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+   margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #16416B;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
